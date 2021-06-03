@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "KoHo",sans-serif;
+}
+.navbar-brand{
+    margin-left: 180px;
+    margin-right: 500px;
+    margin-top: 3px !important;
+}
+.nav-item{
+    margin-right: 20px;
+
+}
+.na{
+    height: 95px;
+    margin: 0;
+}
+.im{
+    height: 400px;
+}
+.im1{
+    height: 400px;
+    width: auto;
+}
+.carousel-caption h5{
+    width: auto;
+}
+.carousel-caption p{
+    width: auto;
+}
+/* GO UP Button*/
+
+#myBtn 
+{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px; 
+    border-radius: 50%; 
+    font-size: 18px; 
+}
+#myBtn:hover
+{
+    background-color: #555; 
+    padding: 18px;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.im2{
+    width: 300px;
+    margin-right: 15px;
+}
+.lead{
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1400px){
+    body{
+        background-size: 1518px 400px;
+    }
+    .navbar-brand{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 990px){
+    .navbar-brand{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .navbar-brand{
+        margin-right: 345px;
+    }
+    
+}
+@media screen and (max-width: 1100px) {
+    .navbar-brand{
+        margin-right: 200px;
+    }
+    
+}
+@media screen and (max-width: 460px){
+    .navbar-brand{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
